@@ -1,0 +1,72 @@
+/* Resetando o css do navegador*/
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+    /* font-family: 'Neucha', cursiva;*/
+}
+
+/* Aqui estamos importando a fonte do GOoogle ....
+
+<style> @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap'); </style> */
+
+
+h1 {
+    color:deepskyblue;
+    font-size: 42px;
+    font-family:;
+}
+
+.container {
+    width: 250px;
+    border: 2px solid #ddd;
+    margin: auto;
+    margin-top: 80px;
+    padding: 25px;
+    text-align: center;
+    display: table; 
+    padding-top: 5px;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;  /* tira uma marcação básic que todo navegador coloca*/
+    
+}
+
+input:focus {
+    border: 2px solid deepskyblue;
+    outline: none;
+}
+
+.grupo {
+    text-align: start;
+    margin-bottom: 8px;
+}
+
+#btn-entrar {
+    width: 100%;     /*Fiz os mesmo valores que o input */
+    padding: 10px;
+    margin-top: 10px;
+    background-color:deepskyblue;
+    border: none;
+    color:#fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;   
+}
+#btn-entrar:hover {
+    cursor: pointer;
+    background-color: rgb(20, 150, 202) ;
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+    float: right;
+}
